@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Kode",
+            "type": "bun",
+            "request": "attach",
+            "url": "ws://localhost:9229/unhxzo3rb2"
+        }
+    ]
+}
