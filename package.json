@@ -29,7 +29,7 @@
     ".npmrc"
   ],
   "scripts": {
-    "dev": "bun run --inspect=9229 ./src/entrypoints/cli.tsx --verbose",
+    "dev": "bun run --inspect=9229 ./src/entrypoints/cli.tsx --debug --verbose",
     "build": "bun run scripts/build.ts",
     "clean": "rm -rf cli.js",
     "prepublishOnly": "bun run build && node scripts/prepublish-check.js",
